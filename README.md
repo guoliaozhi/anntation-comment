@@ -13,7 +13,7 @@
 
 二.jar打入仓库maven命令
 
-mvn install:install-file -DgroupId=com.ingo.zhuniu -DartifactId=annotation -Dversion=1.0.0 -Dpackaging=jar -Dfile=annotation-comment-1.0.0.jar
+mvn install:install-file -DgroupId=com.guoliaozhi -DartifactId=annotation.comment -Dversion=1.0.0 -Dpackaging=jar -Dfile=annotation-comment-1.0.0.jar
 
 三.可在配置文件中配置来控制注解是否生效
 	propoties ---> ygg.annotation.comment.enable=false
